@@ -12,7 +12,7 @@ st.subheader("how awesome am i?????")
 liker = st.slider('liker') 
 if(liker==100):
     st.write("heck yes dude!")
-    st.image("images/heckyes.jfif")
+    st.image("./images/heckyes.jfif")
 else:
     st.write("no")
 
