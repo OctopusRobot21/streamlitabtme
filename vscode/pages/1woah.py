@@ -1,5 +1,6 @@
 import streamlit as st
 import requests as req
+import os
 
 st.set_page_config(page_title="hey im a page", page_icon="👺")
 
@@ -12,6 +13,7 @@ st.subheader("how awesome am i?????")
 liker = st.slider('liker') 
 if(liker==100):
     st.write("heck yes dude!")
+    
     st.image("./images/heckyes.jfif")
 else:
     st.write("no")
