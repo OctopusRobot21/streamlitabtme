@@ -11,6 +11,13 @@ st.set_page_config(
     page_icon="👹",
 )
 
+
+arrow_path = get_image_path("ARROW.webp")
+
+if os.path.exists(arrow_path):
+    st.image(arrow_path)
+else:
+    st.write("Image not found!")
 st.sidebar.header("woah theres another page")
 
 st.header("hey fellas im matthew")
