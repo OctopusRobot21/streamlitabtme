@@ -12,12 +12,13 @@ st.set_page_config(
 )
 
 
-arrow_path = get_image_path("ARROW.webp")
+#arrow_path = get_image_path("ARROW.webp")
 
-if os.path.exists(arrow_path):
-    st.sidebar.markdown("arrow_path)
-else:
-    st.write("Image not found!")
+#if os.path.exists(arrow_path):
+   # st.sidebar.markdown("arrow_path)
+#else:
+   # st.write("Image not found!")
+st.sidebar.markdown("![Alt Text](https://cdn.pixabay.com/animation/2022/08/13/01/09/01-09-03-923_512.gif)")
 st.sidebar.header("woah theres another page")
 
 st.header("hey fellas im matthew")
