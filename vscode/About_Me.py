@@ -13,13 +13,14 @@ st.header("hey fellas im matthew")
 
 'i like video game'
 
+st.write("Current working directory:", os.getcwd())
+
 image_path = "images/game.png"
 
 if os.path.exists(image_path):
     st.image(image_path)
 else:
     st.write("Image not found!")
-#st.image("images/game.png")
 
 'i like quality music'
 r = req.get("https://www.youtube.com/watch?v=4L7u4F4cGY0")
