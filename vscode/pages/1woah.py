@@ -4,7 +4,7 @@ import os
 
 def get_image_path(image_name):
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    return os.path.join(script_dir, "images", image_name)
+    return os.path.join(script_dir, "./images", image_name)
 
 st.set_page_config(page_title="hey im a page", page_icon="👺")
 
