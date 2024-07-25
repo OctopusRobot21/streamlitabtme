@@ -13,9 +13,13 @@ st.header("hey fellas im matthew")
 
 'i like video game'
 
-st.write("Current working directory:", os.getcwd())
+# Get the directory of the current script
+script_dir = os.path.dirname(os.path.abspath(__file__))
 
-image_path = "images/game.png"
+# Construct the path to the image
+image_path = os.path.join(script_dir, "images/game.png")
+
+st.write("Image path:", image_path)
 
 if os.path.exists(image_path):
     st.image(image_path)
