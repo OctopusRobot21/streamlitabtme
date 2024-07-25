@@ -15,7 +15,7 @@ st.set_page_config(
 arrow_path = get_image_path("ARROW.webp")
 
 if os.path.exists(arrow_path):
-    st.sidebar.markdown("![Alt Text]", arrow_path)
+    st.sidebar.markdown("arrow_path)
 else:
     st.write("Image not found!")
 st.sidebar.header("woah theres another page")
